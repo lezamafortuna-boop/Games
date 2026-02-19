@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="./styles.css"> <!-- Link to the CSS file that contains the styles for the game -->
+</head>
+<body>
+
+  <h1>Memory Game</h1>
+  <!-- Container for the mode selection buttons to allow users to choose between different themes for the game -->
+  <div class="mode-select">
+    <button id="iconsMode">Icons</button>
+    <button id="zodiacMode">Zodiac</button>
+  </div>
+
+  <!-- Container for displaying the game statistics such as time and score, along with a button to restart the game -->
+  <div class="stats">
+    <div>⏱ Time: <span id="timer">0</span>s</div>
+    <div>⭐ Score: <span id="score">0</span></div>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <!-- Container for the game board where the cards will be displayed and interacted with by the user -->
+  <div class="game-board" id="gameBoard"></div>
+
+  <script src="./game.js"></script> <!-- Link to the JavaScript file that contains the game logic and functionality -->
+</body>
+</html>
