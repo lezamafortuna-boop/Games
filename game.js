@@ -23,7 +23,7 @@ const icons = [
   "⭐","🔥","⚡","🌙","❄️","🌈"
 ];
 
-const images = Array.from({ length: 12 }, (_, i) => `images/img${i + 1}.png`);
+const images = Array.from({ length: 12 }, (_, i) => `images/Img${i + 1}.png`);
 
 // ---------- Helpers ----------
 
