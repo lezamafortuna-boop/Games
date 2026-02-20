@@ -1,31 +1,19 @@
-<<<<<<< HEAD
-// Styles for the Memory Card Game
-=======
 /* Styles for the Memory Card Game for icons and zodiac themes */
->>>>>>> main
 body {
   font-family: Arial, sans-serif;
   background: #222;
   color: #fff;
   text-align: center;
   margin: 0;
-  padding: 20px;        
+  padding: 20px;
 }
 
-<<<<<<< HEAD
-// Container for the entire game
-=======
 /* Container for the entire game */
->>>>>>> main
 h1 {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-// Container for the game stats and controls
-=======
 /* Container for the game stats and controls */
->>>>>>> main
 .stats {
   display: flex;
   justify-content: center;
@@ -34,11 +22,7 @@ h1 {
   align-items: center;
 }
 
-<<<<<<< HEAD
-// Display for score and timer
-=======
 /* Display for score and timer */ 
->>>>>>> main
 button {
   padding: 8px 16px;
   background: #ff9800;
@@ -48,20 +32,12 @@ button {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-// Hover effect for buttons
-=======
 /* Hover effect for buttons */
->>>>>>> main
 button:hover {
   background: #ffa726;
 }
 
-<<<<<<< HEAD
-// Container for the game board, using CSS Grid to layout the cards
-=======
 /* Container for the game board, using CSS Grid to layout the cards */
->>>>>>> main
 .game-board {
   width: 700px;
   margin: 0 auto;
@@ -70,11 +46,7 @@ button:hover {
   gap: 10px;
 }
 
-<<<<<<< HEAD
-// Styles for each card in the game
-=======
 /* Styles for each card in the game */
->>>>>>> main
 .card {
   width: 100%;
   height: 100px;
@@ -89,33 +61,21 @@ button:hover {
   transition: transform 0.2s;
 }
 
-<<<<<<< HEAD
-// Styles for flipped cards to show the image and indicate they are active
-=======
 /* Styles for flipped cards to show the image and indicate they are active */
->>>>>>> main
 .card.flipped {
   background: #fff;
   color: #000;
   transform: scale(1.05);
 }
 
-<<<<<<< HEAD
-// Styles for matched cards to indicate they have been successfully paired and are no longer active
-=======
 /* Styles for matched cards to indicate they have been successfully paired and are no longer active */
->>>>>>> main
 .card.matched {
   background: #4caf50;
   color: #fff;
   cursor: default;
 }
 
-<<<<<<< HEAD
-// Container for the mode selection buttons at the top of the game
-=======
 /* Container for the mode selection buttons at the top of the game */
->>>>>>> main
 .mode-select {
   margin-bottom: 15px;
   display: flex;
@@ -123,11 +83,7 @@ button:hover {
   gap: 10px;
 }
 
-<<<<<<< HEAD
-// Styles for the mode selection buttons to differentiate them from other buttons and provide a consistent look
-=======
 /* Styles for the mode selection buttons to differentiate them from other buttons and provide a consistent look */
->>>>>>> main
 .mode-select button {
   padding: 8px 16px;
   background: #607d8b;
@@ -137,20 +93,12 @@ button:hover {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-// Hover effect for mode selection buttons to provide visual feedback when the user interacts with them
-=======
 /* Hover effect for mode selection buttons to provide visual feedback when the user interacts with them */
->>>>>>> main
 .mode-select button:hover {
   background: #78909c;
 }
 
-<<<<<<< HEAD
-// Styles for the images displayed on the cards when they are flipped to show their content
-=======
 /* Styles for the images displayed on the cards when they are flipped to show their content */
->>>>>>> main
 .card img {
   width: 80%;
   height: 80%;
@@ -158,19 +106,12 @@ button:hover {
   pointer-events: none;
 }
 
-<<<<<<< HEAD
-// Ensure that the images on the cards do not interfere with click events and are properly sized to fit within the card while maintaining their aspect ratio
-=======
 /* Ensure that the images on the cards do not interfere with click events and are properly sized to fit within the card while maintaining their aspect ratio */
->>>>>>> main
 .card img {
   width: 80%;
   height: 80%;
   object-fit: contain;
   pointer-events: none;
-<<<<<<< HEAD
-}
-=======
 }
 
 /* Responsive design for smaller screens to ensure the game remains playable and visually appealing on mobile devices */
@@ -180,4 +121,3 @@ button:hover {
     grid-template-columns: repeat(4, 1fr);
   }
 } 
->>>>>>> main
